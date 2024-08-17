@@ -63,6 +63,14 @@ export default defineConfig({
         find: "@pages",
         replacement: fileURLToPath(new URL("./src/pages", import.meta.url)),
       },
+      {
+        find: "@router",
+        replacement: fileURLToPath(new URL("./src/router", import.meta.url)),
+      },
+      {
+        find: "@service",
+        replacement: fileURLToPath(new URL("./src/service", import.meta.url)),
+      },
     ],
   },
 });

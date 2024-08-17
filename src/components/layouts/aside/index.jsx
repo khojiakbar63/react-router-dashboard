@@ -1,5 +1,6 @@
 import "./style.scss";
 import { navigation } from "@/mocks/navigation";
+import { logOut } from "@utils";
 import { NavLink , Link} from "react-router-dom";
 const index = () => {
   return (
@@ -17,6 +18,7 @@ const index = () => {
             ))}
         </ul>
       </nav>
+      <button onClick={()=>logOut()} className="bg-[#ffffff94] mt-4 rounded py-1 px-4 w-full hover:bg-[#ffffffca] hover:text-indigo-600 active:bg-[#ffffff94] duration-150 text-white">Log Out</button>
     </aside>
   );
 };

@@ -16,6 +16,12 @@ export const navigation = [
     },
     {
         id: 3,
+        path: '/posts',
+        name: 'Posts',
+        icon: 'bi-file-earmark-post-fill'
+    },
+    {
+        id: 3,
         path: '/users',
         name: "Users",
         icon: 'bi-person'

@@ -12,6 +12,8 @@
             "@utils/*": ["./src/utils/*"],
             "@layout/*": ["./src/layout/*"],
             "@pages/*": ["./src/pages/*"],
+            "@router/*": ["./src/router/*"],
+            "@service/*": ["./src/service/*"],
         }
     }
 }
