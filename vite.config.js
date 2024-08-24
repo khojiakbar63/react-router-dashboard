@@ -71,6 +71,10 @@ export default defineConfig({
         find: "@service",
         replacement: fileURLToPath(new URL("./src/service", import.meta.url)),
       },
+      {
+        find: "@reducer",
+        replacement: fileURLToPath(new URL("./src/reducer", import.meta.url)),
+      },
     ],
   },
 });

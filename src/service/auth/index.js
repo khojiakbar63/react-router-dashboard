@@ -7,7 +7,7 @@ export async function useAuth(userObject) {
         if(res.data.access_token){
             location.href='/'
         }
-    }catch(e){
-        console.error(e);
+    }catch(er){
+        console.error(er);
     }
 }

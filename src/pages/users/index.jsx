@@ -8,7 +8,6 @@ const index = () => {
     const [users, setUsers] = useState([])
     const [load, setLoader] = useState(true)
 
-    console.log(users);
     useEffect(()=>{
         getUsers().then(res=>setUsers(res))
         setLoader(false)

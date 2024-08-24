@@ -1,0 +1,12 @@
+input {
+  padding: 8px 20px;
+  min-width: 320px;
+  outline: 4px solid transparent;
+  border: 1px solid #80808068;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  &:focus {
+    border: none;
+    outline: 4px solid rgba(128, 128, 128, 0.415);
+  }
+}

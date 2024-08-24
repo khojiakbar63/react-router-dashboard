@@ -1,0 +1,17 @@
+.modal-wrapper  {
+    background-color: #00000081;
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    display: grid;
+    place-content: center;
+    .modal-content{
+        width: 600px;
+        height: 400px;
+        background: #fff;
+    }
+}

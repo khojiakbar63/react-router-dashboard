@@ -1,0 +1,44 @@
+table{
+    transition: .1s ease-in;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  thead {
+    background-color: #4c008286;
+    color: #fff;
+    height: 60px;
+  }
+  
+  tbody {
+    tr {
+      height: 50px;
+      padding: 4px 0;
+  
+      &:nth-child(even) {
+        background-color: #4c00822b;
+      }
+      &:hover {
+        background-color: #708bc2c2;
+        color: #fff;
+      }
+    }
+  }
+  
+  button{
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: .1s ease-in;
+    background-color: #4c0082a3;
+    
+    &:hover{
+      background-color: #4c008290;
+    }
+    &:active{
+      background-color: #4c0082be}
+  }
